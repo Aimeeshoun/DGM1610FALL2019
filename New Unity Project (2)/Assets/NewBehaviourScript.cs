@@ -20,6 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         print("hello how are you." + firstString);
         print("I am here." + firstChar);
+        print("I am" + firstDouble);
     }
 
     // Update is called once per frame
