@@ -19,6 +19,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         print("hello how are you." + firstString);
+        print("I am here." + firstChar);
     }
 
     // Update is called once per frame
