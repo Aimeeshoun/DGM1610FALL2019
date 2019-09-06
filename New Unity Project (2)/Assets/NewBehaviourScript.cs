@@ -8,13 +8,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     public string firstString = "hello world!";
 
-    public char firstChar = 'a';
+    public char firstChar = 'b';
 
-    public bool firstBool = true;
+    public bool firstBool = false;
 
     public double firstDouble = 2.345324;
 
-    public float firstFloat = 2.45f;
+    public float firstFloat = 2.44f;
     // Start is called before the first frame update
     void Start()
     {
