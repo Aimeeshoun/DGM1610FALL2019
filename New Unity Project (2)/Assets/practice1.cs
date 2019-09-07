@@ -11,6 +11,7 @@ public class practice1 : MonoBehaviour
     void Start()
     {
         print("Yo" + firstString);
+        print( "I am here to do your bidding."+ firstInt);
     }
 
     // Update is called once per frame
