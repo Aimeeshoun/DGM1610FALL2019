@@ -10,7 +10,8 @@ public class Variable7 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MultiplyByTwo(myInt);
+       myInt = MultiplyByTwo(myInt);
+       Debug.Log(myInt);
     }
 
     int MultiplyByTwo(int number)
