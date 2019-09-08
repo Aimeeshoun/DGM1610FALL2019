@@ -12,7 +12,11 @@ public class VariableTwo : MonoBehaviour
         MultiplyByTwo(myInt);
     }
 
+<<<<<<< Updated upstream
     Int MultiplyByTwo(int number)
+=======
+    int MultiplyByTwo(int number)
+>>>>>>> Stashed changes
     {
         int result;
         result = number * 2;
