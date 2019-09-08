@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class practice : MonoBehaviour
+public class Variable3 : MonoBehaviour
 {
-    public int firstInt = 2;
-
-    public string firstSting = "Hello World!";
-
-    public bool firstBool = false;
+    public int myInt = 3;
     
     // Start is called before the first frame update
     void Start()
     {
-        print("hello world!" + firstInt);
-
+         MultiplyByTwo(myInt);
     }
 
+    int MultiplyByTwo(int number)
+    {
+        int result;
+        result = number * 2;
+        return result;
+    }
     // Update is called once per frame
     void Update()
     {
