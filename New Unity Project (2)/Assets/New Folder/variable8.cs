@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Variable7 : MonoBehaviour
+public class variable8 : MonoBehaviour
 {
-    public int myInt = 3;
-    
+    public int myInt = 2;
     
     // Start is called before the first frame update
     void Start()
     {
-       myInt = MultiplyByTwo(7);
-       Debug.Log(myInt);
+        myInt= MultiplyByTwo(myInt);
+        Debug.Log(myInt);
     }
 
     int MultiplyByTwo(int number)
     {
         int result;
-        result = number * 2;
+        result = number*2;
         return result;
+
     }
     // Update is called once per frame
     void Update()
