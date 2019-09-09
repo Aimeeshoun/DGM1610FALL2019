@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="New Folder" t="Include">
           <e p="variable8.cs" t="Include" />
+          <e p="variable9.cs" t="Include" />
         </e>
         <e p="Variable3.cs" t="Include" />
         <e p="Variable6.cs" t="Include" />
