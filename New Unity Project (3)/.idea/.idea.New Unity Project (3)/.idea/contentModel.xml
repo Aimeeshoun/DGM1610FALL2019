@@ -11,6 +11,7 @@
         </e>
         <e p="Events" t="Include">
           <e p="triggerEvent1.cs" t="Include" />
+          <e p="variableScript.cs" t="Include" />
         </e>
       </e>
       <e p="New Unity Project (3).sln" t="IncludeFlat" />
