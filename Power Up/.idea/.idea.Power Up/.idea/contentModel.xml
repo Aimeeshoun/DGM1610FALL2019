@@ -11,6 +11,7 @@
           <e p="HealthScript.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="powerUpScript1.cs" t="Include" />
+          <e p="Script.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
