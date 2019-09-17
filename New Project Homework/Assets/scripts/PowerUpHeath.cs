@@ -6,7 +6,7 @@ using UnityEngine;
 public class PowerUpHeath : MonoBehaviour
 
 {
-    public int healthValue;
+    
     public int Health = 100;
 
     private void OnTriggerEnter(Collider other)
@@ -17,6 +17,8 @@ public class PowerUpHeath : MonoBehaviour
             if ( Health <= 0)
             {
                 Destroy(gameObject);
+           
+                Debug.Log("DIE DIE DIE!!!!");
             }
         }
     }
