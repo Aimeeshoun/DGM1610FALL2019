@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56b70e34-c7d1-4e64-9ebb-18b71fabe231" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../New Unity Project (5)/.idea/.idea.New Unity Project (5)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New Unity Project (5)/.idea/.idea.New Unity Project (5)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Unity Project (5)/.idea/.idea.New Unity Project (5)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New Unity Project (5)/.idea/.idea.New Unity Project (5)/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (6)/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568939830210</updated>
-      <workItem from="1568939834051" duration="5808000" />
+      <workItem from="1568939834051" duration="6482000" />
     </task>
     <servers />
   </component>
