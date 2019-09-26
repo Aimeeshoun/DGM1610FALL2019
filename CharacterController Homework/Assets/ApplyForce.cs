@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
 public class ApplyForce : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Rigidbody rb;
+    public Vector3 forces;
+    
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision other )
     {
-        
+        //rb.AddForce(0,30f,0);
+        rb.AddForce(forces);
     }
 }
