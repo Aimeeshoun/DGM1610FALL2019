@@ -4,8 +4,11 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CoinDisplay.cs" t="Include" />
         <e p="scripts" t="Include">
-          <e p="Bounce.cs" t="Include" />
+          <e p="CoinScript.cs" t="Include" />
+          <e p="MoveMent.cs" t="Include" />
+          <e p="Scriptable.cs" t="Include" />
         </e>
       </e>
       <e p="IfElseStaments.sln" t="IncludeFlat" />
