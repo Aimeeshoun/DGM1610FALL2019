@@ -7,6 +7,7 @@
         <e p="CoinDisplay.cs" t="Include" />
         <e p="scripts" t="Include">
           <e p="CoinScript.cs" t="Include" />
+          <e p="IfElse.cs" t="Include" />
           <e p="MoveMent.cs" t="Include" />
           <e p="Scriptable.cs" t="Include" />
         </e>
