@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     {  //moving character to the right
         //i could also use Vector3(right)
         // Vector3 (-1,0,0) or (left) moves player to left
-        transform.Translate(Vector3(1.0,0));
+        //new Vector3 (1, 0,0}
+        //converting 1 meter for frame to 1 meter per second, Time.deltaTime = Real time
+        //move 5 meters per second, all vectors ( 5,0,0 ) gets multiplied by 5
+        transform.Translate(Vector3.right * 5 * Time.deltaTime);
     }
 }
