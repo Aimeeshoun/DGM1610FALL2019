@@ -10,14 +10,22 @@ public class Player : MonoBehaviour
     //opitional value assigned
     //other objects can change a public variable
     // ex: when mario pick up power up and it changes its speed
+<<<<<<< HEAD
     private float _speed = 3.5f;
+=======
+    public float speed = 3.5f;
+>>>>>>> master
     // underscore to show its private
    //serializeField allows private var to be changed in inpector but cannot be changed by gameobjects and scripts
    [SerializeField]
    private float _exampleFloat;
+<<<<<<< HEAD
 
    public float horizontalInput;
    public float verticalInput;
+=======
+    
+>>>>>>> master
     
     
     // Start is called before the first frame update
@@ -35,6 +43,7 @@ public class Player : MonoBehaviour
         //new Vector3 (1, 0,0}
         //converting 1 meter for frame to 1 meter per second, Time.deltaTime = Real time
         //move 5 meters per second, all vectors ( 5,0,0 ) gets multiplied by 5
+<<<<<<< HEAD
         transform.Translate(Vector3.right * horizontalInput * _speed * Time.deltaTime);
         transform.Translate(Vector3.up * verticalInput * _speed * Time.deltaTime);
         horizontalInput = Input.GetAxis("Horizontal");
@@ -45,5 +54,8 @@ public class Player : MonoBehaviour
         //or you could put
         //Vector3 direction = new Vector3(horizontalInput, verticalInput,0);
         //transform.Translate(direction * _speed * Time.deltaTime);
+=======
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
+>>>>>>> master
     }
 }
