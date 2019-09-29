@@ -20,6 +20,11 @@ public class Parameter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CalculateMovement();
+    }
+
+    void CalculateMovement()
+    {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontalInput, verticalInput, 0);
@@ -38,6 +43,10 @@ public class Parameter : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, -3.8f, 0);
         }
+        //could use
+        // transfrom.position = new Vector3( transform.position.x, Mathf.Clamp(transform.postion.y, -3.8f,0),0);
+        // then delete the if else stament for y
+        // cant not do it for wrapping
         
         //if player on the x > 11
         //x pos = -11
