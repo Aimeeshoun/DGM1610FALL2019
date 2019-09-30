@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-    private float _speed = 8;
+    private float _speed = 8f;
+    
     
 
     //speed variable of 8
@@ -20,7 +21,16 @@ public class Laser : MonoBehaviour
     {
         //translate laser up
         
-        transform.Translate(Vector3.up*Time.deltaTime);
+        transform.Translate(Vector3.up *_speed * Time.deltaTime);
+
+        // if lasor position is great than 8
+        //destroy object
+        
+        
+        if (transform.position.y >= 8f)
+        {
+            Destroy(this.gameObject);
+        }
 
         
     }
