@@ -20,7 +20,8 @@ public class DesroyCoin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(other.gameObject);
-            emitParticles.Emit(100);
+            
+           
             
             
             
