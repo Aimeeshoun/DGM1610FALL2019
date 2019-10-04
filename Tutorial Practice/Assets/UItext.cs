@@ -10,19 +10,19 @@ using UnityEngine.XR.WSA.Input;
 
 public class UItext : MonoBehaviour
 {
-    public UnityEvent theEvent;
-    public Text theUIText;
+    public Text textlable;
 
-    public void UpdateText(ScriptableObjectScript data)
+    void Awake()
     {
-        theUIText.text = data.intValue.ToString();
+        textlable = GetComponent<Text>();
     }
 
-    void Start()
+    public void UpdateText(MyfloatData data)
     {
-        theUIText = GetComponent<Text>();
-       theEvent.Invoke();
+        Debug.Log("i in update text with data = " + data.myFloatValue.ToString());
+        textlable.text = data.myFloatValue.ToString();
     }
-
+    
 }
 
+      

@@ -8,13 +8,38 @@ public class ScriptableObjectScript : ScriptableObject
 {
     
 
-    public int intValue = 1;
+    public float floatValue = 1f;
+    public float theMaximumValue = 1f;
+    public float theMinimunValue = 0f;
 
-    public void UpdateValue(int number)
-    {
-        intValue += number;
+    public void UpdateValue(float numberAmount)
+    {  
+        floatValue += numberAmount;
         
     }
+
+    public void TheUpdateValueRange(float numberAmount)
+    {
+        if (floatValue <= theMaximumValue)
+        {
+            UpdateValue(numberAmount);
+        }
+        else
+        {
+            floatValue = theMaximumValue;
+        }
+
+        if (floatValue >= theMinimunValue)
+        {
+            UpdateValue(numberAmount);
+        }
+        else
+        {
+            floatValue = theMinimunValue;
+        }
+    }
+    
+    
 }
 
     
