@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ab4895f6369cc4a66855ed3655c7bc11
+guid: 9f0c99e2099f94e3cae0b1e5b3090afc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - textlable: {fileID: 4340937426144730101, guid: c63afdb2db6a84156a3fd718b28a8675,
+  - textMy: {fileID: 4340937426144730101, guid: c63afdb2db6a84156a3fd718b28a8675,
       type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
