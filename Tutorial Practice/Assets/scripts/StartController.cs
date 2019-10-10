@@ -8,6 +8,10 @@ public class StartController : MonoBehaviour
     public UnityEvent startEvent;
         void Start()
         {
-            startEvent.Invoke();
+            
+            startEvent.Invoke(); 
+            
         }
-    }
+        
+        
+}

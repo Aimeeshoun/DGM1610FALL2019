@@ -15,11 +15,12 @@ public class DataForSheild : ScriptableObject
 
     public void InstanceSheild()
     {
+        
         var newSheild = Instantiate(thePrefab);
         var newSprite = newSheild.GetComponentInChildren<SpriteRenderer>();
         newSprite.sprite = sprite;
         newSprite.color = color;
-      ;
+      
       
     }
 
