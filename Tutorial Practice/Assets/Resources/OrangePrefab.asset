@@ -15,4 +15,8 @@ MonoBehaviour:
   spriteArt: {fileID: 21300000, guid: 13011691793ca47aba394f23e829b1f2, type: 3}
   thePrefab: {fileID: 9097564478019942323, guid: c41ce7bdc82974c7496af1955683e5bf,
     type: 3}
-  colorOf: {r: 1, g: 0.739583, b: 0, a: 1}
+  colorOf:
+    r: 1
+    g: 0.739583
+    b: 0
+    a: 1
