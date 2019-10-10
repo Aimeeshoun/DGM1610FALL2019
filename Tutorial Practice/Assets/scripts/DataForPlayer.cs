@@ -7,7 +7,7 @@ public class DataForPlayer : ArtForGameData
 {
     
 
-    public void Instancer()
+    public void Instanciater()
     {
         var newPlayer = Instantiate(thePrefab);
         var newSprite = newPlayer.GetComponentInChildren<SpriteRenderer>();

@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4829fad3d3ab043c0b2e06747181ffd8, type: 3}
-  m_Name: New Data For Player
+  m_Name: OrangePrefab
   m_EditorClassIdentifier: 
-  spriteArt: {fileID: 0}
-  thePrefab: {fileID: 0}
-  colorOf: {r: 0, g: 0, b: 0, a: 0}
+  spriteArt: {fileID: 21300000, guid: 13011691793ca47aba394f23e829b1f2, type: 3}
+  thePrefab: {fileID: 9097564478019942323, guid: c41ce7bdc82974c7496af1955683e5bf,
+    type: 3}
+  colorOf: {r: 1, g: 0.739583, b: 0, a: 1}

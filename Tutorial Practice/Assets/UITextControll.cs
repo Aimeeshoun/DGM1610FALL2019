@@ -9,12 +9,13 @@ public class UITextControll : MonoBehaviour
 {
 
     public Text textMy;
-   
+    public bool toggleGUI;
 
 
     private void OnTriggerEnter(Collider other)
     {
         Instantiate(textMy);
+        toggleGUI = true;
 
     }
 
