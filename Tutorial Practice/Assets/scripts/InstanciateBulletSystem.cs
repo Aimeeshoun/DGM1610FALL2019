@@ -13,7 +13,7 @@ public class InstanciateBulletSystem : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(lazerPrefabulous, new Vector3(transform.position.x, transform.position.y + 2.0f, 0),
+            Instantiate(lazerPrefabulous, new Vector3(transform.position.y, transform.position.y + transform.position.z, 0),
                 Quaternion.identity);
         }
     }

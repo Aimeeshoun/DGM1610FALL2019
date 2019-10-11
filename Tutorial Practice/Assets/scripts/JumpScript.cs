@@ -5,11 +5,11 @@ using UnityEngine;
 public class JumpScript : MonoBehaviour
 {
     private CharacterController playerController;
-    private int jumperCountMax = 3;
+    private int jumperCountMax = 10;
     private Vector3 playerPosition;
     public int theJumpCount;
     public float gravity = 9.81f;
-    public float jumpSpeed = 32f;
+    public float jumpSpeed = 45f;
     public float moveSpeed = 32f;
     private Rigidbody rb;
     public float Speed;
@@ -29,8 +29,8 @@ public class JumpScript : MonoBehaviour
 
         if (playerController.isGrounded)
         {
-            theJumpCount = 0;
-            playerPosition.y = 0;
+            theJumpCount = 5;
+            playerPosition.y = 3;
         }
 
         if (Input.GetButtonDown("Jump") && theJumpCount < jumperCountMax)
