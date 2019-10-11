@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 906fe5d39c760407893fb43f9dd1f20a, type: 3}
   m_Name: redsheild
   m_EditorClassIdentifier: 
-  thePrefab: {fileID: 5378706661449515886, guid: 3cf822bef7ea843e3a6617d442207ca2,
+  thePrefab: {fileID: 4468513390733559774, guid: 411ed779c271145448e645433a51cd4c,
     type: 3}
-  color: {r: 1, g: 0, b: 0, a: 1}
+  color: {r: 1, g: 0, b: 0.37254906, a: 1}
   typeOfSheild: weak sheild
   Powers: can only defend bullets
   sprite: {fileID: 21300000, guid: 3c920d9755fe049299ebf2620c45e2cd, type: 3}
