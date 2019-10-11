@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 4468513390733559770}
   - component: {fileID: 4468513390733559771}
   - component: {fileID: 4606212819565235136}
+<<<<<<< HEAD
   - component: {fileID: 3995301083473152997}
+=======
+>>>>>>> master
   m_Layer: 0
   m_Name: my player
   m_TagString: Untagged
@@ -65,6 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerPrefabulous: {fileID: 3867189461097807565, guid: 1736083369e774c6099378a3a9290f83,
     type: 3}
+<<<<<<< HEAD
 --- !u!114 &3995301083473152997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,3 +82,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emitParticles: {fileID: 0}
+=======
+>>>>>>> master

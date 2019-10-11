@@ -7,7 +7,11 @@ public class JumpScript : MonoBehaviour
     private Vector3 thePosition;
     private CharacterController controller;
     
+<<<<<<< HEAD
     public float moveSpeed = 11f,  gravity = 9.81f, jumpSpeed = 3f;
+=======
+    public float moveSpeed = 11f,  gravity = 9.81f, jumpSpeed = 14f;
+>>>>>>> master
     private int theJumpCount;
     public int theJumpCountMax = 4;
     
