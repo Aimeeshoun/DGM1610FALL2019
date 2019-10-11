@@ -21,7 +21,7 @@ public class Laser : MonoBehaviour
     {
         //translate laser up
         
-        transform.Translate(Vector3.up *_speed * Time.deltaTime);
+        transform.Translate(0,0,0 *_speed * Time.deltaTime);
 
         // if lasor position is great than 8
         //destroy object

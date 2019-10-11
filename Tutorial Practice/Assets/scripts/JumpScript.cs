@@ -1,47 +1,42 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class JumpScript : MonoBehaviour
 {
-    private CharacterController playerController;
-    private int jumperCountMax = 10;
-    private Vector3 playerPosition;
-    public int theJumpCount;
-    public float gravity = 9.81f;
-    public float jumpSpeed = 45f;
-    public float moveSpeed = 32f;
-    private Rigidbody rb;
-    public float Speed;
-
+    
+    private Vector3 thePosition;
+    private CharacterController controller;
+    
+    public float moveSpeed = 11f,  gravity = 9.81f, jumpSpeed = 14f;
+    private int theJumpCount;
+    public int theJumpCountMax = 4;
+    
     // Start is called before the first frame update
     void Start()
     {
-        playerController = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerPosition.y -= gravity;
-        playerPosition.x = moveSpeed * Input.GetAxis("Horizontal");
-        playerPosition.z = Input.GetAxis("Vertical");
+        thePosition.x = moveSpeed*Input.GetAxis("Horizontal");
+        thePosition.y -= gravity;
 
-        if (playerController.isGrounded)
+        if (controller.isGrounded)
         {
-            theJumpCount = 5;
-            playerPosition.y = 3;
+            thePosition.y = 0;
+            theJumpCount = 0;
         }
-
-        if (Input.GetButtonDown("Jump") && theJumpCount < jumperCountMax)
+        
+        if (Input.GetButtonDown("Jump") && theJumpCount < theJumpCountMax)
         {
+            thePosition.y = jumpSpeed;
             theJumpCount++;
-            playerPosition.y = jumpSpeed;
-            
         }
-
-        playerController.Move(motion: playerPosition * Time.deltaTime);
-
+        
+        controller.Move(thePosition*Time.deltaTime);
     }
 }
 
+  
