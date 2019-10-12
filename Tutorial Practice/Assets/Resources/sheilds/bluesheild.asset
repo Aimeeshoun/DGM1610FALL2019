@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 906fe5d39c760407893fb43f9dd1f20a, type: 3}
   m_Name: bluesheild
   m_EditorClassIdentifier: 
-  thePrefab: {fileID: 4468513390733559774, guid: 411ed779c271145448e645433a51cd4c,
+  thePrefab: {fileID: 6966731748424300911, guid: abde309fedc9447009be0e34621fbd5f,
     type: 3}
   color: {r: 0, g: 0.18741083, b: 1, a: 1}
   typeOfSheild: amazing sheild
