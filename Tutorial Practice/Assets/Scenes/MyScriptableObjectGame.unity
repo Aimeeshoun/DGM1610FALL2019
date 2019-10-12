@@ -1345,11 +1345,11 @@ GameObject:
   - component: {fileID: 1500345997}
   - component: {fileID: 1500345996}
   - component: {fileID: 1500345995}
+  - component: {fileID: 1500345990}
   - component: {fileID: 1500345994}
   - component: {fileID: 1500345993}
   - component: {fileID: 1500345992}
   - component: {fileID: 1500345991}
-  - component: {fileID: 1500345990}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   hortizontalInput: 0
   verticalInput: 0
   _speed: 3.5
-  _laserPrefab: {fileID: 6222964922755430108, guid: 688f261e8c14a472d947e5e603120e8a,
+  _laserPrefab: {fileID: 3867189461097807565, guid: 1736083369e774c6099378a3a9290f83,
     type: 3}
 --- !u!114 &1500345991
 MonoBehaviour:
@@ -1386,23 +1386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab4895f6369cc4a66855ed3655c7bc11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1517556202}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  theUIText: {fileID: 0}
+  textlable: {fileID: 0}
 --- !u!114 &1500345992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1617,35 +1601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab4895f6369cc4a66855ed3655c7bc11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1517556206}
-        m_MethodName: UpdateText
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 6202cdd9ecb564506814f4b2650737f0,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ScriptableObjectScript, Assembly-CSharp
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 6202cdd9ecb564506814f4b2650737f0, type: 2}
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  theUIText: {fileID: 1517556204}
+  textlable: {fileID: 0}
 --- !u!1 &1638047191
 GameObject:
   m_ObjectHideFlags: 0
