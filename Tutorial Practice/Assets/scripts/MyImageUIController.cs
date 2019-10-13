@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
+﻿
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Image))]
 public class MyImageUIController : MonoBehaviour
@@ -15,9 +13,9 @@ public class MyImageUIController : MonoBehaviour
         myImg = GetComponent<Image>();
     }
 
-    public void UpdateImage( MyfloatData data)
+    public void UpdateImage( ScriptableObjectScript data)
     {
-        myImg.fillAmount = data.myFloatValue;
+        myImg.fillAmount = data.floatValue;
         
 
     }

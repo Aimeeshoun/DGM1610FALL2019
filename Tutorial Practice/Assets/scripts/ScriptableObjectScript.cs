@@ -9,7 +9,7 @@ public class ScriptableObjectScript : ScriptableObject
     
 
     public float floatValue = 1f;
-    public float theMaximumValue = 1f;
+    public float theMaximumValue = 20f;
     public float theMinimunValue = 0f;
 
     public void UpdateValue(float numberAmount)

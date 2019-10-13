@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5538433525484517324}
   - component: {fileID: 5538433525484517362}
   - component: {fileID: 5538433525484517363}
+  - component: {fileID: 5463863703427471247}
   - component: {fileID: 590487600171326580}
-  - component: {fileID: 8289574899782621742}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -81,6 +81,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
+--- !u!114 &5463863703427471247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538433525484517325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6defa00e4945a464d9e9c3c9b4167fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &590487600171326580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,43 +107,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textlable: {fileID: 4340937426144730101, guid: c63afdb2db6a84156a3fd718b28a8675,
     type: 3}
---- !u!114 &8289574899782621742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5538433525484517325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7fa6b26b1712420c94ddf754fe224d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTheEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 5cd369c6c45ea4589ade936c480c552b, type: 2}
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 4340937426144730098, guid: c63afdb2db6a84156a3fd718b28a8675,
-          type: 3}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
