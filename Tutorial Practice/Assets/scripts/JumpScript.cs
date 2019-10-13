@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-public class JumpScript : MonoBehaviour
+public class JumpScript : Parameter
 {
     
     private Vector3 thePosition;
