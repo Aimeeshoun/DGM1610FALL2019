@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd2267b3c29540088c29c73bb03ebe1, type: 3}
   m_Name: New Scriptable Object Script
   m_EditorClassIdentifier: 
-  floatValue: 3
+  floatValue: 14
   theMaximumValue: 20
   theMinimunValue: 0

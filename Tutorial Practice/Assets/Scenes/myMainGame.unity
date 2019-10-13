@@ -354,9 +354,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &533064600
 SphereCollider:
@@ -640,9 +640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &649897998
 SphereCollider:
@@ -898,9 +898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &747331123
 SphereCollider:
@@ -1109,9 +1109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &953010503
 SphereCollider:
@@ -6502,9 +6502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &1906036978
 SphereCollider:
@@ -6713,9 +6713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2cccf14c4bc4e05b2f6c26eba03800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMoveSpeed: 5
+  objectMoveSpeed: 30
   spinx: 0
-  spiny: 0
+  spiny: 5
   spinz: 0
 --- !u!135 &2145174883
 SphereCollider:
