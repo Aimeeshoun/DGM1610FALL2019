@@ -18,12 +18,8 @@ public class MovementCoin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //move player too right
-        //when player moves 5 meters
-        //player turns left
-        //when play moves 5 m left, player turns right
-
-        transform.Translate(Vector3.right * 0.1f);
+        
+        transform.Translate(Vector3.right * 0.000001f);
 
         if (dirRight)
         {
@@ -34,12 +30,12 @@ public class MovementCoin : MonoBehaviour
         else 
             transform.Translate(-Vector3.right*_speed);
         
-        if(transform.position.x>= 16.0f)
+        if(transform.position.x>= 5.18f)
         {
             dirRight = false;
         }
 
-        if (transform.position.x <= -16)
+        if (transform.position.x <= -5.18f)
         {
             dirRight = true;
         }

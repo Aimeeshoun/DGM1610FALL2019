@@ -40,37 +40,28 @@ public class Parameter : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontalInput, verticalInput, 0);
         transform.Translate(direction * _speed * Time.deltaTime);
-        
-        //if player postion on the y is greater than 0
-        //then y position is 0
-        //else if postion on the y is less than -5f
-        //y pos = -5f
 
-        if (transform.position.y >= 0)
+        if (transform.position.y >= 6f)
         {
-            transform.position = new Vector3(transform.position.x, 0, 0);
+            transform.position = new Vector3(transform.position.x, 6f, 0);
         }
-        else if (transform.position.y <= -5f)
+        else if (transform.position.y <= 0f)
         {
-            transform.position = new Vector3(transform.position.x, -5f, 0);
+            transform.position = new Vector3(transform.position.x, 0f, 0);
         }
         //could use
         // transfrom.position = new Vector3( transform.position.x, Mathf.Clamp(transform.postion.y, -3.8f,0),0);
         // then delete the if else stament for y
         // cant not do it for wrapping
         
-        //if player on the x > 13
-        //x pos = -13
-        //else if player on the x us less than -13
-        //x pos = 13
-
-        if (transform.position.x > 13)
+        
+        if (transform.position.x > 10.87)
         {
-            transform.position = new Vector3(-13, transform.position.y, 0);
+            transform.position = new Vector3(-10.87f, transform.position.y, 0);
         }
-        else if (transform.position.x < -13)
+        else if (transform.position.x < -10.87)
         {
-            transform.position = new Vector3( 13, transform.position.y, 0);
+            transform.position = new Vector3( 10.87f, transform.position.y, 0);
         }
     }
     
