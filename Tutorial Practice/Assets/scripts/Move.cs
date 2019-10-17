@@ -26,7 +26,11 @@ public class Move : MonoBehaviour
    
            if (theControllerontroller.isGrounded)
            {
+<<<<<<< HEAD
                thePosition.y = 1.5f;
+=======
+               thePosition.y = 0;
+>>>>>>> master
                theJumpCount = 0;
            }
            
@@ -40,3 +44,10 @@ public class Move : MonoBehaviour
        }
    }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+}
+>>>>>>> master
+>>>>>>> master
