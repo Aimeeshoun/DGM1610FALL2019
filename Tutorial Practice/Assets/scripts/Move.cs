@@ -26,7 +26,7 @@ public class Move : MonoBehaviour
    
            if (theControllerontroller.isGrounded)
            {
-               thePosition.y = 0;
+               thePosition.y = 1.5f;
                theJumpCount = 0;
            }
            
