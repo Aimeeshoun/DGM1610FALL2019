@@ -40,3 +40,7 @@ public class Move : MonoBehaviour
        }
    }
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> master
