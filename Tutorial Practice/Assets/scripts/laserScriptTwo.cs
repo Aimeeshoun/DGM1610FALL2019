@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class laserScriptTwo : MonoBehaviour
 {
-    private float _speed = 15f;
+    private float _speed = 59f;
 
     void Update()
     {
