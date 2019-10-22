@@ -13,9 +13,9 @@ public class MyImageUIController : MonoBehaviour
         myImg = GetComponent<Image>();
     }
 
-    public void UpdateImage( ScriptableObjectScript data)
+    public void UpdateImage( MyfloatData data)
     {
-        myImg.fillAmount = data.floatValue;
+        myImg.fillAmount = data.myFloatValue;
         
 
     }

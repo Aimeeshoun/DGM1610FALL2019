@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 8c33e932013a95242a5a5619db7794e9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: banana_part1
+    21300002: lemon2_part1
+    21300004: lemon_cut_pat1
+    21300006: lemon_cut_pat2
+    21300008: lemon_part1
+    21300010: lime2_part1
+    21300012: banana_cut_part1
+    21300014: banna_part2
+    21300016: lemon2_part2
+    21300018: lemon_part2
+    21300020: lime
+    21300022: lime2_part2
+    21300024: banana_cut_part2
+    21300026: lemon
+    21300028: lime2
+    21300030: lime_cut_part2
+    21300032: banana_cut
+    21300034: lime_cut_part1
+    21300036: lime_cut
+    21300038: lime_part2
+    21300040: orange
+    21300042: banana
+    21300044: orange_cut
+    21300046: orange_cut_part2
+    21300048: lemon_cut
+    21300050: orange_part2
+    21300052: lemon2
+    21300054: orange_part1
+    21300056: orange_cut_part1
+    21300058: lime_part1
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: banana_part1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3531
+        width: 979
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629612cf3cfceb44ab63074d3349c62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon2_part1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3556
+        width: 503
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44df533a7d3c36741bfa36a96c18ab8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon_cut_pat1
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3572
+        width: 510
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ededb0ce044494c91b14a8e44dc8d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon_cut_pat2
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 3573
+        width: 511
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341a9147662bfee43b8d12492b0deef9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon_part1
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 3544
+        width: 507
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d325f6a59f0d26a42ac1d9d9446d9c69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime2_part1
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 3532
+        width: 506
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d52982302934e41aee289aaf09e0be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banana_cut_part1
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 3628
+        width: 456
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce4e19a339efc44bd263cf13b17a30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banna_part2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2840
+        width: 982
+        height: 675
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079fc629c7a1a914793b2b316cd91bac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon2_part2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2682
+        width: 698
+        height: 845
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b39ade24c23f4ea3d8e51039cc5b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon_part2
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 2952
+        width: 490
+        height: 569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eabedc7556a5b4a88dce5933a6d3c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 2768
+        width: 547
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd316b4e490b39443811757f91916936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime2_part2
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 2671
+        width: 689
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd3735cd1237c942964ba2c27aa6546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banana_cut_part2
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 3163
+        width: 425
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a487397540c594f9e7c9c51edfb24b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2024
+        width: 543
+        height: 745
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f52da8b4580f44a87695fead27a176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1637
+        width: 688
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6725781a620037a41bc6a82168f8dd68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime_cut_part2
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2103
+        width: 510
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e79fcb6792f3a04ca74051fe591e98e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banana_cut
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2219
+        width: 513
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb25d2a3164a55644a01e0319b5884cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime_cut_part1
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 2635
+        width: 508
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a038d7a6b9a877043b69572a0abd220e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime_cut
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 992
+        width: 600
+        height: 601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db3ffc6f6a08d4aa194e2c3e53c71e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime_part2
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 907
+        width: 491
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b76712e328c04e46bc219ab5c55c46b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1447
+        width: 752
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9f56414bb7e33448770aa24bd457d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banana
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 186
+        width: 1737
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fe4c231b40f60479259877694c8e27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_cut
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 684
+        width: 750
+        height: 737
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c461d3c38208e64d9f1a3309a1ef32d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_cut_part2
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 681
+        width: 648
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33fa042fe3a52c418aa38fc54e16c0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon_cut
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668621ff85fe4be43a71aa96f0f9f45a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_part2
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 41
+        width: 650
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca3fe3bf00898f4c916b8cea92d2b8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lemon2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 697
+        height: 1011
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb0817690be19644882a38119749b8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_part1
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2028
+        width: 634
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865814a0a1999e0469e48a33e76bfaaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_cut_part1
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 1368
+        width: 623
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8581a1432eebbf4a80518a09ded9c7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lime_part1
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1513
+        width: 501
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b23a969bbdc42a49a1e874ed6867048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

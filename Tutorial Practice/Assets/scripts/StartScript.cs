@@ -5,7 +5,7 @@ public class StartScript : MonoBehaviour
 {
    public UnityEvent startTheEvent;
 
-   void Start()
+   void Awake()
    {
       startTheEvent.Invoke();
    }
