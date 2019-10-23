@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d5f115bbddb5349b48858bc448c083, type: 3}
-  m_Name: Candy Data
+  m_Script: {fileID: 11500000, guid: 8d5d73bc4b8d3c1459684b58cd582a3d, type: 3}
+  m_Name: sword
   m_EditorClassIdentifier: 
   theSprite: {fileID: 0}
-  theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
+  theSpriteColor: {r: 1, g: 0.80319375, b: 0, a: 1}
   thePrefab: {fileID: 0}
   collected: 0
-  candyType: 
+  powerLevel: 8

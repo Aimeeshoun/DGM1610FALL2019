@@ -5,7 +5,6 @@ using UnityEngine;
 public class CandyData : GameArtData
 {
       public string candyType;
-      public Sprite candySprite;
-      public Color candyColor; 
+      
 
 }
