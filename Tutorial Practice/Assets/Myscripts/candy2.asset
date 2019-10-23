@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d5f115bbddb5349b48858bc448c083, type: 3}
   m_Name: candy2
   m_EditorClassIdentifier: 
-  theSprite: {fileID: 0}
+  theSprite: {fileID: 21300004, guid: 2db3aa689aef01e4eaa9cbde25a91498, type: 3}
   theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
   thePrefab: {fileID: 0}
   collected: 0
   candyType: 
-  candySprite: {fileID: 0}
-  candyColor: {r: 0, g: 0, b: 0, a: 0}

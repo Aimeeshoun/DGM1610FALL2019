@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95a1b18f609f6046a2eed8a6a9ce042, type: 3}
   m_Name: candy Collection
   m_EditorClassIdentifier: 
-  theCollectionList: []
+  theCollectionList:
+  - {fileID: 11400000, guid: 2f711817e0b289f44852766b6dae9ec7, type: 2}
+  - {fileID: 11400000, guid: d5311254412c33544b182218494c393c, type: 2}
+  - {fileID: 11400000, guid: f9b88c3f9c249c144a4a72c94f552f34, type: 2}
