@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSprite: {fileID: 21300006, guid: 2db3aa689aef01e4eaa9cbde25a91498, type: 3}
   theSpriteColor: {r: 1, g: 0.65517235, b: 0, a: 1}
-  thePrefab: {fileID: 0}
+  thePrefab: {fileID: 6906612037648952955, guid: 28223a01cf1259a4daeb65ec64d232ec,
+    type: 3}
   collected: 1
   candyType: hard candy

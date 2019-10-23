@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d5f115bbddb5349b48858bc448c083, type: 3}
-  m_Name: candy2
+  m_Script: {fileID: 11500000, guid: 3ee791c3c4277ea41a5dfdc707e4e0d1, type: 3}
+  m_Name: Shirt1
   m_EditorClassIdentifier: 
-  theSprite: {fileID: 21300004, guid: 2db3aa689aef01e4eaa9cbde25a91498, type: 3}
+  theSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
-  thePrefab: {fileID: 7885041173636642967, guid: bcf4aaf03b092df4bbd0e8e14a49410b,
+  thePrefab: {fileID: 3459538806154144489, guid: c6f48cffb4dcaa949a4593f98af45d26,
     type: 3}
   collected: 0
-  candyType: 

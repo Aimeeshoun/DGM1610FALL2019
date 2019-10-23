@@ -1,16 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+
 [CreateAssetMenu]
-public class ThePlayerData : GameArtData
+public class PlayerData1 : GameArtData
 {
     public UnityAction<GameObject> instanceAction;
     
-    public MyfloatData  health;
+    public MyfloatData health;
     public List<WeaponData> weapons;
-    public CandyData candy2;
-    public CandyData candy1;
+    public ClothesData shirt;
+    public ClothesData pants;
 
     public void InstancePlayer()
     {

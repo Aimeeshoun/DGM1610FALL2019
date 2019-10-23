@@ -8,4 +8,5 @@ using UnityEngine;
         public Color theSpriteColor = Color.blue;
         public GameObject thePrefab;
         public bool collected;
+        
     }
