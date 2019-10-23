@@ -15,7 +15,8 @@ public class instanciatechicks : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
-                    Instantiate(_laserPrefab, new Vector3(transform.position.x,transform.position.y-.4f,0), Quaternion.identity);
+                    Instantiate(_laserPrefab, new Vector3(transform.position.x,transform.position.y,0), Quaternion.identity);
+                    Debug.Log("Working");
                 }
     }
 }

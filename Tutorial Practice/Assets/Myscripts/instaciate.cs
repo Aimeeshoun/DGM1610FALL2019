@@ -11,9 +11,9 @@ public class instaciate : MonoBehaviour
        // Update is called once per frame
        void Update()
        {
-           if (Input.GetKeyDown(KeyCode.Space))
+           if (Input.GetKeyDown(KeyCode.RightShift))
                    {
-                       Instantiate(_laserPrefab, new Vector3(transform.position.x+20f,transform.position.y,0), Quaternion.identity);
+                       Instantiate(_laserPrefab, new Vector3(transform.position.x+3f,transform.position.y,0), Quaternion.identity);
                    }
        }
    }
