@@ -6,7 +6,7 @@ public class StartController : MonoBehaviour
 {
 
     public UnityEvent startEvent;
-        void Awake()
+        void Start()
         {
             
             startEvent.Invoke(); 

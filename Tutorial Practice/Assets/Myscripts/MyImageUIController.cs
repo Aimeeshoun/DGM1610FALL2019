@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Events;
+
 
 [RequireComponent(typeof(Image))]
 public class MyImageUIController : MonoBehaviour
