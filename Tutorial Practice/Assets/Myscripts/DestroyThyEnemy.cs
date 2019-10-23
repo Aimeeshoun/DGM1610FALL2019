@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DestroyThyEnemy : MonoBehaviour
 {
- 
+    
     public ParticleSystem emitParticles;
     
     private void OnTriggerEnter(Collider other)
@@ -11,6 +11,7 @@ public class DestroyThyEnemy : MonoBehaviour
         if (other.CompareTag("enemy"))
         {
             Destroy(other.gameObject);
+            
                
                
         }
