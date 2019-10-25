@@ -15,5 +15,29 @@ public class GameArtDataCollection2 : ScriptableObject
             theCollectionList.Add(obj);
             obj.collected = true;
         }
+
+        if (theCollectionList.Contains(obj))
+        {
+            
+        }
+        if(!theCollectionList.Contains(obj))
+        {
+            theCollectionList.Add(obj);
+
+
+            theCollectionList.Remove(obj);
+        }
+
+        if (theCollectionList.Contains(obj)) ;
+
+        {
+            theCollectionList.Remove(obj);
+        }
+    }
+
+
+    public void RemoveLastItem()
+    {
+        theCollectionList.RemoveAt(theCollectionList.Count - 1);
     }
 }
