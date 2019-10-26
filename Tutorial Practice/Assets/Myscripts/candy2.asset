@@ -17,4 +17,5 @@ MonoBehaviour:
   thePrefab: {fileID: 3819591472827750368, guid: 3b9d21b49185de248aef5804161db525,
     type: 3}
   collected: 0
-  candyType: 
+  candyType: hard candy
+  theCollectionList: []

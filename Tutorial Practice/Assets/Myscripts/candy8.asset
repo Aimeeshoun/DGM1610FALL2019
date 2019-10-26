@@ -16,4 +16,5 @@ MonoBehaviour:
   theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
   thePrefab: {fileID: 13481164530920368, guid: 9d6e2daf2353e9341aa042a14d6f563d, type: 3}
   collected: 0
-  candyType: 
+  candyType: sucker
+  theCollectionList: []
