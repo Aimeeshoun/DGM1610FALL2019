@@ -8,9 +8,7 @@ public class TheCandyData : GameArtData
     public UnityAction<GameObject> instanceAction;
     
    
-    public List<WeaponData> weapons;
-    public CandyData candy2;
-    public CandyData candy1;
+   
 
     public void InstanceCandy()
     {

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81d5f115bbddb5349b48858bc448c083, type: 3}
-  m_Name: candy1
+  m_Name: candy7
   m_EditorClassIdentifier: 
-  theSprite: {fileID: 21300006, guid: 2db3aa689aef01e4eaa9cbde25a91498, type: 3}
-  theSpriteColor: {r: 1, g: 0.65517235, b: 0, a: 1}
-  thePrefab: {fileID: 8650122660724472592, guid: 0e48cb6f22397c14aa85df615e02f5f1,
+  theSprite: {fileID: 21300026, guid: 2db3aa689aef01e4eaa9cbde25a91498, type: 3}
+  theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
+  thePrefab: {fileID: 931497981626485881, guid: 9d39dbe9d8ce8ad49a9647f7f670e8b3,
     type: 3}
-  collected: 1
-  candyType: hard candy
+  collected: 0
+  candyType: 
