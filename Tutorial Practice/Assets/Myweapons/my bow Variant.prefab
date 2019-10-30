@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &114050820129128354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545531007930823587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4dcd6d9a239344ba20b31bd01d68b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debuggerObj: {fileID: 11400000, guid: 3f4dc876c16d84741b766a71c016fa30, type: 2}
+--- !u!114 &114846056311797146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545531007930823587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad476be297e36345a7da586bb009cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3545531007930791171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9,7 +34,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 693a1e730fc7d1e448040d4667d7b3f6, type: 3}
       propertyPath: m_Name
-      value: my bow
+      value: my bow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 693a1e730fc7d1e448040d4667d7b3f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69,3 +94,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 693a1e730fc7d1e448040d4667d7b3f6, type: 3}
+--- !u!1 &3545531007930823587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 693a1e730fc7d1e448040d4667d7b3f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3545531007930791171}
+  m_PrefabAsset: {fileID: 0}
