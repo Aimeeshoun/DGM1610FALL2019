@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+public class enemyEnum : MonoBehaviour
+{
+   
+    public enum TheEnemyState
+    {
+        Idle,
+        Search,
+        Killing,
+        Dying
+    }
+
+    public TheEnemyState CurrentEnemyState;
+    
+    public UnityEvent OnIdleEvent, OnSearchEvent, OnKillingEvent, OnDyingEvent;
+    
+
+    // Update is called once per frame
+    void Update()
+    {
+        switch(CurrentEnemyState)
+        {
+            case TheEnemyState.Killing :
+            OnIdleEvent.Invoke();
+                break;
+            case TheEnemyState.Search:
+               OnSearchEvent.Invoke();
+                break;
+            case TheEnemyState.Dying:
+                OnDyingEvent.Invoke();
+                break;
+            case TheEnemyState.Idle:
+                OnIdleEvent.Invoke();
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+}
