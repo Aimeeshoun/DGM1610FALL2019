@@ -25,7 +25,7 @@ public class enemyEnum : MonoBehaviour
         switch(CurrentEnemyState)
         {
             case TheEnemyState.Killing :
-            OnIdleEvent.Invoke();
+            OnKillingEvent.Invoke();
                 break;
             case TheEnemyState.Search:
                OnSearchEvent.Invoke();

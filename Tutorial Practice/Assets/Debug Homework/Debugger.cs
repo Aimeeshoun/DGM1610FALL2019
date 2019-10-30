@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
+
 [CreateAssetMenu]
-public class Debugger : ScriptableObject
+public class Debugger : GameArtData
 {
-    public void OnDebug(string words)
+    public GameObject thePrefab;
+    public void OnDebugger(string label)
     {
-        Debug.Log(words);
+        Debug.Log(label);
     }
 
-    public void OnDebug()
+    public void OnDebugger()
     {
         Debug.Log(name);
     }
+
+
 }
 

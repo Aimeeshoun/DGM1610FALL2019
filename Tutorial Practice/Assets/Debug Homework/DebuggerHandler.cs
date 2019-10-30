@@ -14,6 +14,6 @@ public class DebuggerHandler : MonoBehaviour
     
         void Update()
         {
-            debuggerObj.OnDebug();
+            debuggerObj.OnDebugger();
         }
     }

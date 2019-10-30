@@ -19,7 +19,8 @@ public class WeaponEnum : MonoBehaviour
 
    public WeaponType CurrentWeaponType;
 
-   public UnityEvent OnSwordEvent,
+   public UnityEvent 
+       OnSwordEvent,
        OnQuiverEvent,
        OnBowEvent,
        OnDaggerEvent,
@@ -49,6 +50,9 @@ public class WeaponEnum : MonoBehaviour
                 break;
             case WeaponType.WoodenSword:
                 OnWoodenSwordEvent.Invoke();
+                break;
+            case WeaponType.Sword:
+                OnSwordEvent.Invoke();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
