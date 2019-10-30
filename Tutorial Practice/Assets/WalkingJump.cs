@@ -32,7 +32,7 @@ public class WalkingJump : MonoBehaviour
     {
 
 
-      thePosition.y = 1.5f;
+      thePosition.y = 0f;
       thePosition.y = 0;
 
 
