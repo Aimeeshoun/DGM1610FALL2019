@@ -3689,7 +3689,6 @@ GameObject:
   - component: {fileID: 116379729}
   - component: {fileID: 116379734}
   - component: {fileID: 116379730}
-  - component: {fileID: 116379733}
   - component: {fileID: 116379728}
   - component: {fileID: 116379732}
   - component: {fileID: 116379725}
@@ -4049,19 +4048,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &116379733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116379723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4dcd6d9a239344ba20b31bd01d68b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  debuggerObj: {fileID: 11400000, guid: 3f4dc876c16d84741b766a71c016fa30, type: 2}
 --- !u!114 &116379734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10663,7 +10649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 364c80355c27f0a4a967ea5f3bdd067c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentWeaponType: 0
+  CurrentWeaponType: 1
   OnSwordEvent:
     m_PersistentCalls:
       m_Calls:
@@ -17311,6 +17297,7 @@ GameObject:
   - component: {fileID: 482625232}
   - component: {fileID: 482625230}
   - component: {fileID: 482625235}
+  - component: {fileID: 482625236}
   - component: {fileID: 482625231}
   m_Layer: 0
   m_Name: Cube (1) Homework
@@ -17347,7 +17334,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 1cc6e86999e46c9469568b431f39557b, type: 2}
-        m_MethodName: OnDebugger
+        m_MethodName: OnDebug
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17469,7 +17456,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4dcd6d9a239344ba20b31bd01d68b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debuggerObj: {fileID: 11400000, guid: 8bcc23b51b9aae248bcc793c63115015, type: 2}
+  debuggerObj: {fileID: 11400000, guid: d5aa23dba4435a14892f4c0bc6976a59, type: 2}
+--- !u!114 &482625236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482625229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9804850a22b1c409d0132897a159b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 482625235}
+        m_MethodName: SwitchDebugger
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: d5aa23dba4435a14892f4c0bc6976a59,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Debugger, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 482625235}
+        m_MethodName: SwitchDebugger
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 8bcc23b51b9aae248bcc793c63115015,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Debugger, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &490362996
 GameObject:
   m_ObjectHideFlags: 0
@@ -38139,7 +38168,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e09c546932ffc3d4b93def836a56ad1c, type: 2}
-        m_MethodName: OnDebug
+        m_MethodName: OnDebugger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38153,7 +38182,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 1ea75756e5b02c843b6f06cd944072e9, type: 2}
-        m_MethodName: OnDebug
+        m_MethodName: OnDebugger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38167,7 +38196,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: f0d3faa6492b2ab4a9a93882ec56fb0d, type: 2}
-        m_MethodName: OnDebug
+        m_MethodName: OnDebugger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38181,7 +38210,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 73cf3670a790d4a43acf014331bab8b4, type: 2}
-        m_MethodName: OnDebug
+        m_MethodName: OnDebugger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

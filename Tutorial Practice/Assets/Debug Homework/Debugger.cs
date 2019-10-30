@@ -4,19 +4,15 @@ using UnityEngine;
 using UnityEngine.Analytics;
 
 [CreateAssetMenu]
-public class Debugger : GameArtData
+public class Debugger : ScriptableObject
 {
-    public GameObject thePrefab;
-    public void OnDebugger(string label)
+    public void OnDebug(string words)
     {
-        Debug.Log(label);
+        Debug.Log(words);
     }
 
-    public void OnDebugger()
+    public void OnDebug()
     {
         Debug.Log(name);
     }
-
-
 }
-
