@@ -2,83 +2,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 [RequireComponent(typeof(CharacterController))]
 public class WalkingJump : MonoBehaviour
 {
-  public CharacterController theController;
-  public float theRunSpeed = 40f;
-  public Animator theAnimator;
-  private float horizontalMove = 0f;
-  private bool theJump = false;
-  private bool theCrouch = false;
-  private Vector3 thePosition;
-  public float theMoveSpeed = 11f, gravity = 9.81f, jumpSpeed = 29f;
-  private int theJumpCount;
-  public int theJumpCountMax = 2;
-  void Start()
-      {
-          theController = GetComponent<CharacterController>();
-      }
+    public CharacterController theController;
+    public float theRunSpeed = 40f;
+    public Animator theAnimator;
+    private float horizontalMove = 0f;
+    private bool theJump = false;
 
-  void Update()
-  {
-    theController.Move(thePosition * Time.deltaTime);
-    
-    
-    thePosition.x = theMoveSpeed * Input.GetAxis("Horizontal");
-    thePosition.y -= gravity;
+    private Vector3 thePosition;
+    public float theMoveSpeed = 11f, gravity = 9.81f, jumpSpeed = 29f;
+    private int theJumpCount;
+    public int theJumpCountMax = 2;
 
-    if (theController.isGrounded)
+    void Start()
     {
-
-
-      thePosition.y = 0f;
-      thePosition.y = 0;
-
-
-      thePosition.y = 0;
-
-      theJumpCount = 0;
+        theController = GetComponent<CharacterController>();
     }
-    
-    if (Input.GetButtonDown("Jump") && theJumpCount < theJumpCountMax)
+
+    void Update()
     {
-      thePosition.y = jumpSpeed;
-      theJumpCount++;
-    }
-    horizontalMove = Input.GetAxis("Horizontal") * theRunSpeed;
-    theAnimator.SetFloat("Speed",horizontalMove);
+        theController.Move(thePosition * Time.deltaTime);
 
-    if (Input.GetKeyDown(KeyCode.Space));
-    {
-      theJump = true;
-      theAnimator.SetBool("IsJumping", true);
-    }
 
-    if (Input.GetKeyDown(KeyCode.DownArrow))
-    {
-      theCrouch = true;
-    }
-    else if (Input.GetKeyUp(KeyCode.DownArrow))
-    {
-      theCrouch = false;
-    }
+        thePosition.x = theMoveSpeed * Input.GetAxis("Horizontal");
+        thePosition.y -= gravity;
 
-  }
- 
- void OnLanding()
-   {
-      theAnimator.SetBool("IsJumping", false);
+        if (theController.isGrounded)
+        {
+
+
+            thePosition.y = 0f;
+           
+
+            theJumpCount = 0;
+        }
+
+        if (Input.GetButtonDown("Jump") && theJumpCount < theJumpCountMax)
+        {
+            thePosition.y = jumpSpeed;
+            theJumpCount++;
+        }
+
+        horizontalMove = Input.GetAxis("Horizontal") * theRunSpeed;
+        theAnimator.SetFloat("Speed", horizontalMove);
+
+
     }
-
-  void OnCrouching(bool isCrouching)
-  {
-    theAnimator.SetBool("isCrouching",isCrouching);
-  }
-
-  void fixedUpdate()
-  {
-    
-  }
-  
 }

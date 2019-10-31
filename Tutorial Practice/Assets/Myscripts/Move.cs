@@ -28,13 +28,8 @@ public class Move : MonoBehaviour
         {
 
 
-            thePosition.y = 1.5f;
-            thePosition.y = 0;
-
-
-            thePosition.y = 0;
-
-            theJumpCount = 0;
+            thePosition.y = 0f;
+          theJumpCount = 0;
         }
 
         if (Input.GetButtonDown("Jump") && theJumpCount < theJumpCountMax)
