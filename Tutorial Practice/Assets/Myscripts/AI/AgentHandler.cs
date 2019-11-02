@@ -10,7 +10,7 @@ using UnityEngine.AI;
 public class AgentHandler : MonoBehaviour
 {
    private NavMeshAgent agent;
-   public Transform destinationObj;
+  // public Transform destinationObj;
    private GameObject startObj;
    //private Ventor3 startPoint;
    private Transform currentDestination;
@@ -22,10 +22,10 @@ public class AgentHandler : MonoBehaviour
    
     void Start()
     {
-        CurrentDestination = transform;
-        agent = GetComponent<navMeshAgent>();
+       // CurrentDestination = transform;
+       // agent = GetComponent<navMeshAgent>();
          startObj = new GameObject();
-        startObj.transform.Position = transform.position;
+       // startObj.transform.Position = transform.position;
        // startPoint= transform.position;
         
     }
@@ -40,13 +40,13 @@ public class AgentHandler : MonoBehaviour
        agent.destination = currentDestination.position;
     }
 
-private void OnTriggerEnter(Collider other)
-{currentDestionation = destinationObj;
+//private void OnTriggerEnter(Collider other)
+//{currentDestionation = destinationObj;
 //currentDestination = transform
 
 
 }
 
-private void OnTriggerExit(){
+//private void OnTriggerExit(){
 //Current Destination = transform}
-currentDestination = startObj,transform;}
+//currentDestination = startObj,transform;}
