@@ -8,7 +8,7 @@ public class DestroyThyEnemy : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("enemy"))
+        if (other.CompareTag("tower"))
         {
             Destroy(other.gameObject);
             

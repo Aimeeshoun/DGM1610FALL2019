@@ -10,13 +10,10 @@ public class laserScriptTwo : MonoBehaviour
     {
 
 
-        transform.Translate(Vector3.right *_speed * Time.deltaTime);
+        transform.Translate(Vector3.right*_speed * Time.deltaTime);
 
 
-        if (transform.position.x >= 40f)
-        {
-            Destroy(this.gameObject);
-        }
+        
 
 
     }
