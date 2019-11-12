@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 104498f1ac3dc7d49b08e4c42920146f, type: 3}
   m_Name: IntBullet1
-  m_EditorClassIdentifier: Assembly-CSharp::intBullet
+  m_EditorClassIdentifier: 
   theSprite: {fileID: 0}
   theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
-  thePrefab: {fileID: 0}
+  thePrefab: {fileID: 5626072421512048901, guid: 448051793456d144ea66e3fc21aa0241,
+    type: 3}
   collected: 0
   powerLevel: 10
