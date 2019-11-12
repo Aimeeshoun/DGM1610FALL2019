@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40383210ec2b9740addbc3ff18fe039, type: 3}
+  m_Name: bullet4
+  m_EditorClassIdentifier: 
+  theSprite: {fileID: 0}
+  theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
+  thePrefab: {fileID: 1916954592860588, guid: 1aabc45b1dad0194fa630503dbdc1cce, type: 3}
+  collected: 0
+  OnRunEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  health: {fileID: 0}
+  weapons: []
+  shirt: {fileID: 0}
+  pants: {fileID: 0}
