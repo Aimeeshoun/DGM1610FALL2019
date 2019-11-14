@@ -7,7 +7,11 @@ public class CoroutinClass : MonoBehaviour
     public bool canRun = true;
     
     // Start is called before the first frame update
-    IEnumerator Start()
+    //IEnumerator Start()
+   
+    //Colliders ( detect mouse down)
+    //Ontriggers use Events
+    IEnumerator OnMouseDown()
     { //if statments do once, While repeats
         //use : while(true) if you do not have a canRun bool
         while (canRun)
