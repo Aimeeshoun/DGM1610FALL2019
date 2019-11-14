@@ -5,13 +5,17 @@ using UnityEngine;
 public class CoroutinClass : MonoBehaviour
 {
     public bool canRun = true;
-    
+
+    public void Run()
+    {
+        StartCoroutine(OnRun());
+    }
     // Start is called before the first frame update
     //IEnumerator Start()
    
     //Colliders ( detect mouse down)
     //Ontriggers use Events
-    IEnumerator OnMouseDown()
+    IEnumerator OnRun()
     { //if statments do once, While repeats
         //use : while(true) if you do not have a canRun bool
         while (canRun)
