@@ -5,10 +5,15 @@ using UnityEngine;
 public class CoroutinClass : MonoBehaviour
 {
     public bool canRun = true;
+  //  public int index = 3;
+  public IntData index;
+    public float seconds = 1f;
+    private WaitForSeconds wfsobj;
 
     public void Run()
     {
         StartCoroutine(OnRun());
+        wfsobj = new WaitForSeconds(seconds);
     }
     // Start is called before the first frame update
     //IEnumerator Start()
@@ -18,12 +23,19 @@ public class CoroutinClass : MonoBehaviour
     IEnumerator OnRun()
     { //if statments do once, While repeats
         //use : while(true) if you do not have a canRun bool
-        while (canRun)
+        //while (canRun)
+        //while (index. > 0 )
+        while (index.value > 0 )
         {
-            yield return new WaitForSeconds(3f);
+            index.value--;
+          //  index--;
+          //  yield return new WaitForSeconds(3f);
+          yield return wfsobj;
+            Debug.Log(index);
+            
         }
 
-        Debug.Log("Run");
+        //Debug.Log("Run");
     }
 }
 
