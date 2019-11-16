@@ -9,9 +9,9 @@ public class Coroutines5 : MonoBehaviour
 
     public UnityEvent startEvent, repeatEvent, endEvent;
 
-    public float seconds = 10f;
+    public float seconds = 3f;
 
-    private int counter = 10;
+    public int counter = 3;
     public  bool canRun;
 
     private WaitForSeconds wfsObj;

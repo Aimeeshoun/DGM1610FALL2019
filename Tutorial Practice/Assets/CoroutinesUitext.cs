@@ -9,7 +9,9 @@ public class CoroutinesUitext : MonoBehaviour
 
     public bool canRun = true;
     //  public int index = 3;
-    public IntData index;
+    public IntData index1;
+    public IntData index2;
+    public IntData index3;
     public float seconds = 1f;
     private WaitForSeconds wfsobj;
     public Text myText;
@@ -36,21 +38,13 @@ public class CoroutinesUitext : MonoBehaviour
     
     
     IEnumerator OnRun()
-    { //if statments do once, While repeats
-        //use : while(true) if you do not have a canRun bool
-        //while (canRun)
-        //while (index. > 0 )
-        while (index.value > 0 )
+    { 
+        while (index1.value > 0 )
         {
-            index.value--;
-            //  index--;
-            //  yield return new WaitForSeconds(3f);
-            yield return wfsobj;
-            Debug.Log(index);
-            
+            index1.value--;
+           yield return wfsobj;
         }
-
-        //Debug.Log("Run");
+        
     }
 }
 
