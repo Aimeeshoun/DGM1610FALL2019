@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab9bd909654b4b9583a85b62125fcea, type: 3}
   m_Name: Intdata3
   m_EditorClassIdentifier: 
-  value: 1
+  value: 3

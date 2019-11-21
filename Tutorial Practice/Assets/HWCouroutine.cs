@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HWCouroutine : MonoBehaviour
 {
 
-    public int timeLeft = 3;
+    public int timeLeft = 60;
     public Text countdown;
 
     void Start()
