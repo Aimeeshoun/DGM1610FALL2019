@@ -33,7 +33,7 @@ public class HWCouroutine : MonoBehaviour
                 }
             }
 
-            IEnumerator LostTime()
+            IEnumerator LoseTime()
             {
                 while (timeLeft > -1)
                 {
@@ -44,7 +44,7 @@ public class HWCouroutine : MonoBehaviour
                 while (timeLeft == 1)
                 {
                     yield return new WaitForSeconds(1);
-                    countdown.text = ("test");
+                    countdown.text = ("text");
 
                 }
             }
