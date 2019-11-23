@@ -11,9 +11,13 @@ public class InstansicatePrefab : MonoBehaviour
     void Start()
     {
         Instantiate(myPrefab, transform.position, Quaternion.identity);
+
+
+
+        {
+
+
+        }
+
     }
-
- 
 }
-        
-
