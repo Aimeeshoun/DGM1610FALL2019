@@ -1,21 +1,32 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+
 using UnityEngine.Events;
 
-public class GameActionHandler : MonoBehaviour
-{
- //   public UnityEvent handlerEvent;
-    //public GameAction theGameActionObject;
 
-  //  void Start()
-//    {
-  //      theGameActionObject.action = RaisingTheHandler;
+
+public class GameActionHandler : MonoBehaviour
+
+{
+    public UnityEvent handlerEvent;
+    public GameAction gameActionObj;
+
+   
+    void Start()
+
+    {
+
+        gameActionObj.action = RaiseHandler;
+
     }
 
-   // public void RaisingTheHandler();
-  //  {
-   //     handlerEvent.Invoke();
-   // }
-//}
+
+
+    public void RaiseHandler()
+
+    {
+
+        handlerEvent.Invoke();
+
+    }
+
+}
