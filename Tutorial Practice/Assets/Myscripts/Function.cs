@@ -14,7 +14,7 @@ public class Function: MonoBehaviour
 
 {
 
-    public string thePlayerName;
+   
 
     private int theNumber;
 
@@ -22,7 +22,7 @@ public class Function: MonoBehaviour
 
     public GameObject thePlayer;
 
-    public Color thePlayerColor = Color.blue;
+   
 
     
 
@@ -52,13 +52,7 @@ public class Function: MonoBehaviour
 
         newPlayer.transform.position = Vector3.zero;
 
-        newPlayer.name = thePlayerName;
-
-        newPlayer.GetComponent<Renderer>().material.color = thePlayerColor;
-
-        
-
-        return newPlayer;
+     return newPlayer;
 
     }
 
@@ -82,22 +76,7 @@ public class Function: MonoBehaviour
 
     }
 
-    private string WelcomePlayer()
+    
 
-    {
-
-        return thePlayerName + " Welcome to the game!";
-
-    }
-
-    private int AddNumbers(int a, int b)
-
-    {
-
-        print(a + b);
-
-        return a + b;
-
-    }
-
+ 
 }
