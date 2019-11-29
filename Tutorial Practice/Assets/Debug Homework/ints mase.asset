@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSprite: {fileID: 0}
   theSpriteColor: {r: 0, g: 0, b: 1, a: 1}
-  thePrefab: {fileID: 6536390717859417181, guid: 86e69212c121caa4392db9082c970f47,
+  thePrefab: {fileID: 638182354227180650, guid: 14b0ed51dda13e84f93389988c5135aa,
     type: 3}
   collected: 0
   powerLevel: 10

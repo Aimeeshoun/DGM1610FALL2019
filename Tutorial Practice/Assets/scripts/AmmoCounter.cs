@@ -38,8 +38,12 @@ public class AmmoCounter : MonoBehaviour
         {
          
             SecUItext.text = data.value.ToString();
+            
+            
         }
 
     }
 
+ 
+    
 }
