@@ -13,6 +13,8 @@ public class DestroyBlocks : MonoBehaviour
             if (other.CompareTag("destroy block"))
             {
                 Destroy(other.gameObject);
+                Destroy(this.gameObject);
+                
                 
                
                 
@@ -22,5 +24,6 @@ public class DestroyBlocks : MonoBehaviour
             }
            
            
+            
         }
     }
