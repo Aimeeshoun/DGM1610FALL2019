@@ -10,17 +10,20 @@ public class DebugPracticeScript : MonoBehaviour
  }
  void Start()
  {
-  Shoot(10); 
+ int a1 = Shoot(10);
+ Debug.Log(a1);
  }
 
  void Update()
  {
  }
 
- void Shoot(int data)
+ int Shoot(int data)
   {
    Debug.Log("Shooting");
    Debug.Log(data);
+
+   return (data * 2);
 
   }
  }
