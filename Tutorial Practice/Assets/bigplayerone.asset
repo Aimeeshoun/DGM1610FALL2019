@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 963ce407d95b5234196e2ca884499b69, type: 3}
-  m_Name: experiement
+  m_Script: {fileID: 11500000, guid: 7bee420fd75b34882a48368db472580b, type: 3}
+  m_Name: bigplayerone
   m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  prefab: {fileID: 3955499785718037055, guid: a753cbe0d4ca2894db4e2eec3e3e8db0, type: 3}

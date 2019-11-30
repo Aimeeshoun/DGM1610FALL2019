@@ -54,8 +54,7 @@ public class WeaponEnum : MonoBehaviour
             case WeaponType.Sword:
                 OnSwordEvent.Invoke();
                 break;
-            default:
-                throw new ArgumentOutOfRangeException();
+            
         }
         {
             
