@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: New Myfloat Data 1
   m_EditorClassIdentifier: Assembly-CSharp::MyfloatData
-  myFloatValue: 1
+  myFloatValue: 0
   theMaximumValue: 1
   theMinimunValue: 0
