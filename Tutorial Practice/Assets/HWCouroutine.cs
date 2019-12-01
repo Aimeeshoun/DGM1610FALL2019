@@ -24,7 +24,7 @@ public class HWCouroutine : MonoBehaviour
         }
         else
         {
-            countdown.text = (("Ready Set, Go!"));
+            countdown.text = (("Start!"));
         }
 
                 if (timeLeft <= -1)
