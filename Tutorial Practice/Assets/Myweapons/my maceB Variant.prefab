@@ -50,6 +50,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: my maceB Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c5dbeee764dfc414781abed0d015962e, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5dbeee764dfc414781abed0d015962e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.250551

@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 2727489134616017099, guid: f0e50173d3cc10e49b3bc0ca5ec7c645,
         type: 3}
       propertyPath: m_Name
-      value: my swordWooden Variant2
+      value: my swordWooden Variant2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727489134616017099, guid: f0e50173d3cc10e49b3bc0ca5ec7c645,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 2727489134615717099, guid: f0e50173d3cc10e49b3bc0ca5ec7c645,
         type: 3}
