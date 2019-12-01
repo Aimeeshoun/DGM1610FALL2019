@@ -13,30 +13,13 @@ public class instaciate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        {
-            Instantiate(_laserPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z),
-                Quaternion.identity);
-        }
-    }
-
-    IEnumerator OnTriggerEnter()
-    {
+        
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
 
             Instantiate(_laserPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z),
                 Quaternion.identity);
-            yield return new WaitForSeconds(4);
-            Destroy(bullets);
-            bulletCount--;
-
-
-
-            if (bulletCount >= 5)
-            {
-                Destroy(gameObject);
-            }
+            
         }
 
     }

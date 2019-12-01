@@ -8,15 +8,15 @@ public class laserScriptTwo : MonoBehaviour
 
     void Update()
     {
+        {
+
+            transform.Translate(Vector3.right * _speed * Time.deltaTime);
 
 
-        transform.Translate(Vector3.right*_speed * Time.deltaTime);
 
 
-        
 
-
+        }
     }
 }
-
 
