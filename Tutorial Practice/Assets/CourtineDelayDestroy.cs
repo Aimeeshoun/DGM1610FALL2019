@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class CourtineDelayDestroy : MonoBehaviour
 {
-
-    public class CoroutinClass : MonoBehaviour
-    {
+    
         public bool canRun = true;
 
         public void Run()
@@ -21,9 +19,7 @@ public class CourtineDelayDestroy : MonoBehaviour
                 yield return new WaitForSeconds(1f);
                 Destroy(this.gameObject);
             }
-
-             //Destroy(this.gameObject);
+            
         }
     }
 
-}
