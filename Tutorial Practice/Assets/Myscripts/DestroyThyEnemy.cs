@@ -1,6 +1,6 @@
 ﻿
 using UnityEngine;
-
+[RequireComponent(typeof(ParticleSystem))]
 public class DestroyThyEnemy : MonoBehaviour
 {
     
@@ -10,7 +10,8 @@ public class DestroyThyEnemy : MonoBehaviour
   
  void  Start()
  {
-    emitParticles = GetComponent<ParticleSystem>();
+    emitParticles = GetComponentInChildren<ParticleSystem>();
+   
  }  
     private void OnTriggerEnter(Collider other)
     {
