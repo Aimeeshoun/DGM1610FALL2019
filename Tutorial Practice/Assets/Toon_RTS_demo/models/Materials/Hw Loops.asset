@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed763aa863b8e5479c3ed4b63828d24, type: 3}
+  m_Name: Hw Loops
+  m_EditorClassIdentifier: 
+  collectionList:
+  - {fileID: 11400000, guid: d509035be0a32414aa35bb53a7b58817, type: 2}
+  - {fileID: 11400000, guid: 15fad7065e6f6ef41913ecf812546780, type: 2}
