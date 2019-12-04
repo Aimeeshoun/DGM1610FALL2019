@@ -37,7 +37,7 @@ public class Loops : ScriptableObject
         {
 
             collectionList.RemoveAt(collectionList.Count-1);
-            
+            Debug.Log(collectionList);
 
         }
 
