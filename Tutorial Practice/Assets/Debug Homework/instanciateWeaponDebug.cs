@@ -5,15 +5,16 @@ using UnityEngine;
 [CreateAssetMenu]
 public class instanciateWeaponDebug : WeaponData
 {
-   
+    public GameObject TheGameObject;
     
-    public void Instanciate(GameObject weapon)
+    public void Instanciate()
     {
 
-        Instantiate(weapon, new Vector3(0, 0, 0), Quaternion.identity);
+        Instantiate(TheGameObject,new Vector3(50, 50, 0), Quaternion.identity);
+        Destroy(TheGameObject,3f);
 
     }
-
+  
       
     }
 
