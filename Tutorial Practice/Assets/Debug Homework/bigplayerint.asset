@@ -18,3 +18,5 @@ MonoBehaviour:
     type: 3}
   collected: 0
   powerLevel: 10
+  TheGameObject: {fileID: 853993555373553677, guid: 69624a0d339ae514f936385c02f57c81,
+    type: 3}

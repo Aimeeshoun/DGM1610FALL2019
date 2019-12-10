@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4dcd6d9a239344ba20b31bd01d68b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debuggerObj: {fileID: 0}
+  debuggerObj: {fileID: 11400000, guid: 1ae95759de28d1a44ae6cf93cd56cab1, type: 2}
 --- !u!114 &5289420979002059173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,15 +86,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e49f6f6ed09f294a81e7f3e5e8509f1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 17.962904
+      value: 7.634105
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e49f6f6ed09f294a81e7f3e5e8509f1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 17.962904
+      value: 7.634105
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e49f6f6ed09f294a81e7f3e5e8509f1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 17.962904
+      value: 7.634105
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e49f6f6ed09f294a81e7f3e5e8509f1, type: 3}
