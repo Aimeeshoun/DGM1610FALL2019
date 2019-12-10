@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WhileLoopEx : MonoBehaviour
-{
+//public class WhileLoopEx : MonoBehaviour
+//{
    
-    public bool isAlive = true;
+ //   public bool isAlive = true;
     
     
-    IEnumerator Start()
-    { 
-        while (isAlive)
-        {
-            yield return new WaitForSeconds(5f);
-        }
+ //   IEnumerator Start()
+  //  { 
+  //      while (isAlive)
+  //      {
+//            yield return new WaitForSeconds(5f);
+//        }
 
-        Debug.Log("I`m Alive!!!!!!");
-    }
-}
+ //       Debug.Log("I`m Alive!!!!!!");
+//    }
+//}
 
