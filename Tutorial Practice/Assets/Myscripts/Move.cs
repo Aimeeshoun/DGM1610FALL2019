@@ -12,13 +12,11 @@ public class Move : MonoBehaviour
     private int theJumpCount;
     public int theJumpCountMax = 2;
 
-    // Start is called before the first frame update
     void Start()
     {
         theControllerontroller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         thePosition.x = theMoveSpeed * Input.GetAxis("Horizontal");
@@ -26,7 +24,6 @@ public class Move : MonoBehaviour
 
         if (theControllerontroller.isGrounded)
         {
-
 
             thePosition.y = 0f;
           theJumpCount = 0;
@@ -40,7 +37,5 @@ public class Move : MonoBehaviour
 
         theControllerontroller.Move(thePosition * Time.deltaTime);
     }
-    
-    
     
 }

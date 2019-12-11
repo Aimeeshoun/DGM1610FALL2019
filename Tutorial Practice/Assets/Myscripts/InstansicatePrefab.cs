@@ -12,10 +12,7 @@ public class InstansicatePrefab : MonoBehaviour
     {
         Instantiate(myPrefab, transform.position, Quaternion.identity);
 
-
-
         {
-
 
         }
 

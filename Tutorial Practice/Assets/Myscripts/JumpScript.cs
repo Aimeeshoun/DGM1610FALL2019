@@ -11,13 +11,12 @@ public class JumpScript : Parameter
     private int theJumpCount;
     public int theJumpCountMax = 4;
     
-    // Start is called before the first frame update
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         thePosition.x = moveSpeed*Input.GetAxis("Horizontal");

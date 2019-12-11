@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class TheEnum2Handler : MonoBehaviour
@@ -10,7 +9,6 @@ public class TheEnum2Handler : MonoBehaviour
     {
         thePlayerDataObject = data;
     }
-    
     
     void OnPlayerRun()
     {

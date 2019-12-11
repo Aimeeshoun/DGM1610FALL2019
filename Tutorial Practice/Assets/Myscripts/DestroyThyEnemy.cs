@@ -5,9 +5,7 @@ public class DestroyThyEnemy : MonoBehaviour
 {
     
     public ParticleSystem emitParticles;
-    
-  
-  
+ 
  void  Start()
  {
     emitParticles = GetComponentInChildren<ParticleSystem>();
@@ -19,9 +17,7 @@ public class DestroyThyEnemy : MonoBehaviour
         {
             Destroy(other.gameObject);
             emitParticles.Emit(100);
-            
-               
-               
+      
         }
            
            

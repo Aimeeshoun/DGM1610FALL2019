@@ -1,9 +1,4 @@
-﻿using System;
-
-using System.Collections;
-
-using System.Collections.Generic;
-
+﻿
 using UnityEngine;
 
 [RequireComponent(typeof(ParticleSystem))]
@@ -11,8 +6,7 @@ using UnityEngine;
 public class particleSystem : MonoBehaviour
 
 {
-    
-
+   
     public ParticleSystem theParticleSystem;
 
     private void Start()
@@ -23,7 +17,6 @@ public class particleSystem : MonoBehaviour
     private void OnTriggerEnter()
 
     {
-
         theParticleSystem.Emit(200);
 
     }

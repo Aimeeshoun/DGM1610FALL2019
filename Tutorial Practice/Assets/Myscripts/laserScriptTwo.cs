@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class laserScriptTwo : MonoBehaviour
@@ -11,10 +10,6 @@ public class laserScriptTwo : MonoBehaviour
         {
 
             transform.Translate(Vector3.right * _speed * Time.deltaTime);
-
-
-
-
 
         }
     }

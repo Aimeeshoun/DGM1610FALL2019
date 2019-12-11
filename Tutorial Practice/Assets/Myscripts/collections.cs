@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,23 +10,18 @@ public class Collections: ScriptableObject
 
     public void AddData(GameArtData obj)
    
-    
-    
     {
         foreach (var gameArt in theCollectionList)
         {
             Debug.Log(gameArt);
         }
         
-        
-//Looping/Class Examples/Collectoom
-        for (var i = 0; i < theCollectionList.Count; i++)
+   for (var i = 0; i < theCollectionList.Count; i++)
         {
-
             {
                 Debug.Log(theCollectionList[i]);
             }
-//two examples to use
+
             if (theCollectionList[i] == obj)
             { 
                 theCollectionList.Add(obj);

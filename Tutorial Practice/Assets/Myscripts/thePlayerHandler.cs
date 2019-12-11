@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class thePlayerHandler : MonoBehaviour
@@ -11,7 +10,6 @@ public class thePlayerHandler : MonoBehaviour
     {
         thePlayerDataObject = data;
     }
-    
     
     void OnPlayerRun()
     {

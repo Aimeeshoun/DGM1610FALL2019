@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 [RequireComponent(typeof(Image))]
 public class MyImageUIController : MonoBehaviour
 {
@@ -17,7 +16,6 @@ public class MyImageUIController : MonoBehaviour
     {
         myImg.fillAmount = data.myFloatValue;
         
-
     }
     
 }

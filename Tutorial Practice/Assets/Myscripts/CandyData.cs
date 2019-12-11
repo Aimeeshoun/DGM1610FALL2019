@@ -1,7 +1,6 @@
-﻿using System.Collections;
+﻿
 using System.Collections.Generic;
 using UnityEngine;
-
 
 [CreateAssetMenu]
 public class CandyData : GameArtData
@@ -12,10 +11,9 @@ public class CandyData : GameArtData
 
     public void AddData(GameArtData obj)
     {
-        
+       
         if (obj.collected)
-        {
-            Debug.Log(candyType);
+        {    Debug.Log(candyType);
         }
 
         if (!theCollectionList.Contains(obj))
@@ -26,17 +24,14 @@ public class CandyData : GameArtData
 
         if (theCollectionList.Contains(obj)) ;
 
-        {
-            theCollectionList.Remove(obj);
+        {    theCollectionList.Remove(obj);
         }
     }
-
 
     public void RemoveLastItem()
     {
         theCollectionList.RemoveAt(theCollectionList.Count - 1);
     }
-
 
     
 }

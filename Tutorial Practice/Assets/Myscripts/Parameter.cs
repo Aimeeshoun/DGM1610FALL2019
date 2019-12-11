@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
-using UnityEngine.Networking;
 
 public class Parameter : MonoBehaviour
 {
@@ -12,27 +10,20 @@ public class Parameter : MonoBehaviour
     [SerializeField]
     private GameObject _laserPrefab;
     
-    
-    // Start is called before the first frame update
-    void Start()
+  void Start()
     {
         transform.position = new Vector3(0, 0, 0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         CalculateMovement();
-        
-        //if i hit the space key
-        //spawn gameobject
-
+    
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(_laserPrefab, new Vector3(transform.position.x,transform.position.y+1.5f,0), Quaternion.identity);
         }
-        
-    }
+       }
 
     void CalculateMovement()
     {
@@ -49,12 +40,7 @@ public class Parameter : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, 0f, 0);
         }
-        //could use
-        // transfrom.position = new Vector3( transform.position.x, Mathf.Clamp(transform.postion.y, -3.8f,0),0);
-        // then delete the if else stament for y
-        // cant not do it for wrapping
-        
-        
+   
         if (transform.position.x > 10.87)
         {
             transform.position = new Vector3(-10.87f, transform.position.y, 0);

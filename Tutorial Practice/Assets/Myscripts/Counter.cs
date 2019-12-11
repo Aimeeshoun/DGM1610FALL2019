@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,8 +9,6 @@ public class Counter : MonoBehaviour
     public int counter = 20;
     public bool canRun;
     public float theSeconds = 20f;
-    
-    
     
     private WaitForSeconds wfsObj;
     private void Awake()

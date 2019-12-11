@@ -1,9 +1,4 @@
-﻿using System;
-
-using System.Collections;
-
-using System.Collections.Generic;
-
+﻿
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -14,8 +9,7 @@ public class ApplyForce : MonoBehaviour
     public Vector3 theForces;
     private Rigidbody theRb;
 
-    
-
+  
     void Start()
 
     {

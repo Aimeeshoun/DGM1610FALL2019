@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class instacannon : MonoBehaviour
 {
-  
-   
-    private float _speed = 3.5f;
+  private float _speed = 3.5f;
         [SerializeField]
         public GameObject prefab;
    

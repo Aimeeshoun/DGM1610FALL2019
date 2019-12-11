@@ -35,7 +35,6 @@ public class GameArtDataCollection2 : ScriptableObject
         }
     }
 
-
     public void RemoveLastItem()
     {
         theCollectionList.RemoveAt(theCollectionList.Count - 1);
