@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9027576507206708463}
   - component: {fileID: 4981813482107925100}
   - component: {fileID: 4981813482107925107}
+  - component: {fileID: 8522455782258927131}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -97,8 +98,6 @@ MonoBehaviour:
   bulletCount: 30
   gameobject: {fileID: 1015099489159119910, guid: 78fda9152c8db1440adfee1f5a91d367,
     type: 3}
-  laserPrefab: {fileID: 1015099489159119910, guid: 78fda9152c8db1440adfee1f5a91d367,
-    type: 3}
 --- !u!114 &4981813482107925100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +131,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8522455782258927131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981813482107925103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3648f017243e984ebf9d41f03a4294c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4981813483290705352
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +154,7 @@ GameObject:
   - component: {fileID: 4981813483290705356}
   - component: {fileID: 4981813483290705360}
   - component: {fileID: 4981813483290705363}
+  - component: {fileID: 5468398103020775072}
   - component: {fileID: 4981813483290705361}
   - component: {fileID: 4981813483290705367}
   - component: {fileID: 4981813483290705357}
@@ -207,6 +219,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullets: {fileID: 0}
   _laserPrefab: {fileID: 0}
+--- !u!114 &5468398103020775072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981813483290705352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3648f017243e984ebf9d41f03a4294c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4981813483290705361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,6 +537,7 @@ GameObject:
   - component: {fileID: 4981813483667336245}
   - component: {fileID: 4981813483667336250}
   - component: {fileID: 4981813483667336251}
+  - component: {fileID: 3919822959914303446}
   - component: {fileID: 4981813483667336244}
   - component: {fileID: 4981813483667336249}
   - component: {fileID: 4981813483667336255}
@@ -561,6 +586,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad476be297e36345a7da586bb009cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3919822959914303446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981813483667336246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3648f017243e984ebf9d41f03a4294c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &4981813483667336244
