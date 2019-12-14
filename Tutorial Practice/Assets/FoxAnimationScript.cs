@@ -37,6 +37,23 @@ public class FoxAnimationScript : MonoBehaviour
         {
             foxAnima.SetBool("isMoving",true);
         }
+        
+       
+        }
+   
+    void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("tower"))
+            {
+            GetComponent<Animator>().SetTrigger("hurt");
+            
+            }
 
-    }
+        void OnTriggerExit()
+        {
+            if (CompareTag("tower"))
+            {
+                GetComponent<Animator>().SetTrigger("hurt");
+            }
+        }
+    } 
 }
