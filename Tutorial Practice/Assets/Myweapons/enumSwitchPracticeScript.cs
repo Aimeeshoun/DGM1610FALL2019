@@ -4,7 +4,10 @@ using UnityEngine;
 public class enumSwitchPracticeScript : MonoBehaviour
 {
     
-    public GameObject prefab;
+    public GameObject prefabSword;
+    public GameObject prefabSword1;
+    public GameObject prefabSword2;
+    
 
     public enum WeaponType
     {
@@ -40,21 +43,43 @@ public class enumSwitchPracticeScript : MonoBehaviour
             print(arrayString[i]);
         }
 
+        
+       void OnTriggerEnter()
+        {
+            if(gameObject.CompareTag("Sword1"))
+                         {
+                             
+                         }
+            else if (gameObject.CompareTag("Sword2"))
+            {
+                
+            }
+            else if (gameObject.CompareTag("Sword3"))
+            {
+                
+            }
+            
+        }
+        
+        
         void Update()
         {
+
+
+
             switch (weaponType)
             {
                 case WeaponType.Sword:
-                    Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(prefabSword, new Vector3(0, 0, 0), Quaternion.identity);
                     break;
                 case WeaponType.Swordone:
-                    Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(prefabSword1, new Vector3(0, 0, 0), Quaternion.identity);
                     break;
                 case WeaponType.Swordtwo:
-                    Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(prefabSword2, new Vector3(0, 0, 0), Quaternion.identity);
                     break;
                 default:
-                    Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(prefabSword, new Vector3(0, 0, 0), Quaternion.identity);
                     break;
 
             }
