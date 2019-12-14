@@ -246,6 +246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dcef775986634d5e9c796a95d14db54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  widthBounds: {x: 8, y: 8}
+  heightBounds: {x: 8, y: 8}
 --- !u!114 &4738977227090868610
 MonoBehaviour:
   m_ObjectHideFlags: 0

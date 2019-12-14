@@ -1,6 +1,6 @@
 ﻿
 using UnityEngine;
-[RequireComponent(typeof(ParticleSystem))]
+
 public class DestroyThyEnemy : MonoBehaviour
 {
     
@@ -8,7 +8,7 @@ public class DestroyThyEnemy : MonoBehaviour
  
  void  Start()
  {
-    emitParticles = GetComponentInChildren<ParticleSystem>();
+     GetComponent<ParticleSystem>().Emit(1000);
    
  }  
     private void OnTriggerEnter(Collider other)
@@ -16,8 +16,7 @@ public class DestroyThyEnemy : MonoBehaviour
         if (other.CompareTag("tower"))
         {
             Destroy(other.gameObject);
-            emitParticles.Emit(100);
-      
+            
         }
            
            
