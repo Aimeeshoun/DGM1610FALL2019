@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+﻿
 using UnityEngine;
 
 public class respawnScript : MonoBehaviour
 {
     public GameObject spawnPoint;
+    public GameObject Player = GameObject.FindGameObjectWithTag("myPlayer");
    
         void OnTriggerEnter (Collider col)
         {
             if ( gameObject.CompareTag( "myPlayer"))
             {
-                this.transform.position = spawnPoint.transform.position;
+                Destroy(gameObject, 3f); 
+                GameObject newPlayer= Instantiate(Player, new Vector2(0,0), Quaternion.identity);
+                
             }
         }
     }
