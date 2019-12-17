@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1333000635740398003
+--- !u!1 &5526663213672573606
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4519509721550184259}
-  - component: {fileID: 1970293363196094783}
-  - component: {fileID: 752049081146970350}
+  - component: {fileID: 2753708220332200932}
+  - component: {fileID: 442816334446809188}
+  - component: {fileID: 3801338699408609895}
   m_Layer: 0
-  m_Name: respawnpoint
+  m_Name: respawnexperiment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4519509721550184259
+--- !u!4 &2753708220332200932
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333000635740398003}
+  m_GameObject: {fileID: 5526663213672573606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -571.5, y: 1.81, z: 68.73773}
-  m_LocalScale: {x: 2.9974, y: 2.9974, z: 2.9974}
+  m_LocalPosition: {x: -653.16, y: 8.1, z: 58.1}
+  m_LocalScale: {x: 7.6241, y: 7.6241, z: 7.6241}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1970293363196094783
+--- !u!23 &442816334446809188
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333000635740398003}
+  m_GameObject: {fileID: 5526663213672573606}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -69,13 +69,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &752049081146970350
+--- !u!65 &3801338699408609895
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333000635740398003}
+  m_GameObject: {fileID: 5526663213672573606}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
