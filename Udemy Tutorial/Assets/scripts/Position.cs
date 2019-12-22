@@ -2,7 +2,8 @@
 
 public class Position : MonoBehaviour
 {
-    public float speed = 5f;
+   
+    public float speed = 4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,7 +12,10 @@ public class Position : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
-           
+            float verticalInput= Input.GetAxis("Vertical");
+            float horitzontalInput= Input.GetAxis("Horizontal");
+         
+           transform.Translate(Vector3.right * horitzontalInput * speed * Time.deltaTime);
         }
     }
 }
