@@ -14,7 +14,9 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.right*5*horizontalInput*Time.deltaTime);
+        transform.Translate(Vector3.up*5*verticalInput*Time.deltaTime);
         
     }
 }
