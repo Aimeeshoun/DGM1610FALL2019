@@ -8,5 +8,6 @@ public class Destroy : MonoBehaviour
     {
         if (CompareTag("Player"))
             Destroy(this.gameObject);
+        Debug.Log("1 coin Pick Up!");
     }
 }
