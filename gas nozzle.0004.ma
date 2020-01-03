@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: gas nozzle.0002.ma
-//Last modified: Thu, Jan 02, 2020 05:05:55 PM
+//Name: gas nozzle.0004.ma
+//Last modified: Thu, Jan 02, 2020 06:42:38 PM
 //Codeset: 1252
 requires maya "2019";
 currentUnit -l meter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "5A9A7B5C-4A7E-2889-7EFC-C5BE236044A8";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.8971885895895257 -1.2892216103124896 13.227914388582786 ;
-	setAttr ".r" -type "double3" 13.461647271769442 -360.19999999994207 -1.5530146770552214e-16 ;
+	setAttr ".t" -type "double3" 0.20424820612989172 6.2707970840298479 9.6828651080073449 ;
+	setAttr ".r" -type "double3" -20.138352728230597 -349.39999999994086 -4.0447150011137308e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5CED4B40-43B2-7615-2A61-E1B7CB9B7364";
 	setAttr -k off ".v" no;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 14.913271577423584;
+	setAttr ".coi" 11.87462089918639;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -2236,4 +2236,4 @@ connectAttr "pCylinderShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape4.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape5.iog" ":initialShadingGroup.dsm" -na;
-// End of gas nozzle.0002.ma
+// End of gas nozzle.0004.ma
