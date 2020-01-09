@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Coin.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
+        <e p="eventTest.cs" t="Include" />
         <e p="rotate.cs" t="Include" />
         <e p="Score.cs" t="Include" />
         <e p="scripts" t="Include">
