@@ -1,0 +1,69 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "blinn10SG": {
+            "shader": "Main shader"
+        },
+        "blinn11SG": {
+            "shader": "Main shader"
+        },
+        "blinn5SG": {
+            "shader": "Main shader"
+        },
+        "blinn6SG": {
+            "shader": "Main shader"
+        },
+        "blinn7SG": {
+            "shader": "Main shader"
+        },
+        "blinn8SG": {
+            "shader": "Main shader"
+        },
+        "blinn9SG": {
+            "shader": "Main shader"
+        },
+        "initialShadingGroup": {
+            "shader": "Main shader"
+        },
+        "lambert10SG": {
+            "shader": "Main shader"
+        },
+        "lambert11SG": {
+            "shader": "Main shader"
+        },
+        "lambert12SG": {
+            "shader": "Main shader"
+        },
+        "lambert14SG": {
+            "shader": "Main shader"
+        },
+        "lambert5SG": {
+            "shader": "Main shader"
+        },
+        "lambert9SG": {
+            "shader": "Main shader"
+        }
+    }
+}
